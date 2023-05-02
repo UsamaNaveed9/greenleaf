@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include greenleaf *.css
+recursive-include greenleaf *.csv
+recursive-include greenleaf *.html
+recursive-include greenleaf *.ico
+recursive-include greenleaf *.js
+recursive-include greenleaf *.json
+recursive-include greenleaf *.md
+recursive-include greenleaf *.png
+recursive-include greenleaf *.py
+recursive-include greenleaf *.svg
+recursive-include greenleaf *.txt
+recursive-exclude greenleaf *.pyc
