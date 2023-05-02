@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-05-03 01:02:39.819526",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_group",
+  "column_break_pyto6",
+  "naming_series",
+  "section_break_tking",
+  "get_items_count",
+  "total_records",
+  "start",
+  "end",
+  "get_items",
+  "items"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "label": "Item Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "total_records",
+   "fieldtype": "Int",
+   "label": "Total Records"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Int",
+   "label": "Start"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Int",
+   "label": "End"
+  },
+  {
+   "fieldname": "get_items",
+   "fieldtype": "Button",
+   "label": "Get Items"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "PT-.YY.-"
+  },
+  {
+   "fieldname": "column_break_pyto6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tking",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Price Tag Items"
+  },
+  {
+   "fieldname": "get_items_count",
+   "fieldtype": "Button",
+   "label": "Get Items Count"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-03 01:51:07.913539",
+ "modified_by": "Administrator",
+ "module": "Greenleaf",
+ "name": "Price Tag",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
